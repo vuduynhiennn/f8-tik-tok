@@ -1,6 +1,15 @@
+import styles from './Following.module.scss'
+import classNames from 'classnames/bind'
+
+const cx = classNames.bind(styles)
+
 function Following() {
     return ( 
-        <h1>following</h1>    
+        <div className={cx('wrapper')}>
+            <div className={cx('inner')}>
+
+            </div>
+        </div>
     );
 }
 

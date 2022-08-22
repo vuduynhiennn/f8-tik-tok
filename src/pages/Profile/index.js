@@ -1,6 +1,12 @@
+import styles from './Profile.module.scss'
+import classNames from 'classnames';
+
+const cx = classNames.bind(styles)
+
 function Profile() {
     return ( 
-        <h1> Profile ne </h1>
+        <div className={cx('wrapper')}>
+        </div>
     );
 }
 
